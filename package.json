@@ -1,0 +1,25 @@
+{
+	"name": "fariesky",
+	"version": "1.0.7",
+	"description": "CLI untuk menginstall komponen UI",
+	"main": "index.js",
+	"bin": {
+		"fariesky": "./bin/index.js"
+	},
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"ui",
+		"components",
+		"cli"
+	],
+	"author": "Fariesky",
+	"license": "MIT",
+	"dependencies": {
+		"chalk": "^5.4.1",
+		"commander": "^13.1.0",
+		"fs-extra": "^11.3.0"
+	}
+}
